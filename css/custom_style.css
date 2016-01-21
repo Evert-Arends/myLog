@@ -1,0 +1,194 @@
+body{
+  background-color: #4a4a4a !important;
+  margin-bottom: 80px!important;
+  padding-top: 65px!important;
+  background-color: #4a4a4a !important;
+}
+
+.onoffswitch {
+  position: relative; 
+  width: 70px;
+  top: -5px;
+  -webkit-user-select:none; 
+  -moz-user-select:none; 
+  -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+  display: none;
+}
+.onoffswitch-label {
+  display: block; 
+  overflow: hidden; 
+  cursor: pointer;
+  height: 30px; 
+  padding: 0; 
+  line-height: 30px;
+  border: 2px solid #CCCCCC; 
+  border-radius: 30px;
+  background-color: #E0E0E0;
+  transition: background-color 0.3s ease-in;
+}
+.onoffswitch-label:before {
+  content: "";
+  display: block; 
+  width: 30px; 
+  height: 30px;
+  margin: 0px;
+  background: #2e6da4;
+  position: absolute; 
+  top: 0; 
+  bottom: 0;
+  right: 38px;
+  border: 2px solid #CCCCCC; 
+  border-radius: 30px;
+  transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label {
+  background-color: #66A7ED;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  border-color: #cccccc;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label:before {
+  right: 0px; 
+}
+
+.row{
+  background-color:#4A4A4A!important;
+}
+
+.page{
+  background-color:#eee!important;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .row{
+    background-color: #eee!important;
+  }
+}
+
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+.footer {
+  background-color: #777;
+  bottom: 0;
+  height: 80px;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  max-width: 680px;
+  padding: 0 15px;
+  width: auto;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+  color: white!important;
+}
+
+.NewLog > .panel-heading{
+  background-color: #C3D6E3!important;
+  color: black!important;
+  border: 1px solid transparent!important;
+}
+
+.NewLog > .panel-body{
+  background-color: #C3D6E3!important;
+}
+
+.NewLog > .panel-footer{
+  background-color: #C3D6E3!important;
+  border-top: none;
+}
+
+.InstallFolder > .panel-heading{
+  background-color: #FF9680!important;
+  color: black!important;
+  border: 1px solid transparent!important;
+}
+
+.InstallFolder > .panel-body{
+  background-color: #FF9680!important;
+}
+
+.InstallFolder > .panel-footer{
+  background-color: #FF9680!important;
+  border-top: none;
+}
+
+.alert-close {
+	background: rgba(255,255,255,0.1);
+	z-index: 10;
+	color: #eee;
+	cursor: pointer;
+	font-size: 24px;
+	font-weight: normal;
+	height: 1px;
+	line-height: 24px;
+	position: absolute;
+	right: 62px;
+	text-align: center;
+	top: 26px;
+	-webkit-transition: color 0.2s ease-in-out;
+	-moz-transition: color 0.2s ease-in-out;
+	-o-transition: color 0.2s ease-in-out;
+	transition: color 0.2s ease-in-out;
+  width: 1px;
+}
+
+.alert-close:hover{
+  color: #4a4a4a;
+}
+
+.active > a{
+  color: white!important;
+  background-color: #4a4a4a!important;
+}
+ 
+.navbar-fixed-top{
+  border-width: 0 0 0px!important;
+}
+
+.DataTable > .panel-heading{
+  border-bottom: 1px solid transparent!important;
+}
+
+.securepanel1 > .panel-heading{
+  background-color: #eee!important;
+  color: black!important;
+  border: 1px solid transparent!important;
+}
+
+.securepanel1 > .panel-body{
+  background-color: #eee!important;
+}
+
+.securepanel1 > .panel-footer{
+  background-color: #eee!important;
+  border-top: none;
+}
+
+.securepanel2 > .panel-heading{
+  background-color: #8FFFD5!important;
+  color: black!important;
+  border: 1px solid transparent!important;
+}
+
+.securepanel2 > .panel-body{
+  background-color: #8FFFD5!important;
+}
+
+.securepanel2 > .panel-footer{
+  background-color: #8FFFD5!important;
+  border-top: none;
+}

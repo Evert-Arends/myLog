@@ -1,0 +1,109 @@
++--------------------------------------------------------------------+
+| Project built by: Ard-Jan Aalberts, Evert Arends.                  |
+| Copyrighted to myRemote.io.                                        |
+| Project started on 7 januari 2016.                                 |
+| We are not responsible for any loss of data and/or hardware on     |
+| your side.                                                         |
++--------------------------------------------------------------------+
+
+##########CHANGELOG###################################################
+
+7 januari 2016
+    -   Made global design.
+    -   Worked out the ideas we have on this project.
+    
+8 januari 2016.
+    -   Project started.
+    -   Added forms and bootstrap design.
+
+11 januari 2016.
+    -   Finished bootstrap design.
+    -   Started to build the add log function.
+    -   Added text editor CKEditor to index page and edit page.
+
+12 januari 2016.
+    -   Finished the add log function.
+    -   started to build the export function.
+    -   Experimented with pdf export function. Not added sofar.
+
+13 januari 2016.
+    -   Finished export to txt function.
+    -   Started on the export to csv function and import function.
+
+14 januari 2016. 
+    -   Finished export to csv function.
+    -   Finished import function.
+    -   Added an auto datatable creating function when first data 
+        is put in database.
+    -   Added security function check.php to check if install folder 
+        still exists, what needs to be deleted after installing.
+    -   Changed footer to fixed.
+
+15 januari 2016.
+    -   Changed the auto-table create function to an install function.
+    -   Made some changes to the way the output in the tables are 
+        secured. 
+    -   Changed some functions in the text editor.
+    -   Fixed issue: posting empty logs.
+    -   Expanded the install function with a test log.
+    -   Added val.php, which is the array in where the install 
+        function puts the database connection values. This means the
+        user don't have to edit the database connection in db_con.php.
+    -   Added javascript close button to error report when install
+        folder isn't deleted yet.
+
+18 januari 2016.
+    -   Changed css tools text box.
+    -   Added an on-page delete install folder function.
+    -   Fixed html encode bug in Chrome and Safari.
+    -   Added sitemap
+
+19 januari 2016.
+    -   Split the sitemap into ckeditor.map and sitemap.map.
+    -   Added sitemap page.
+
+##########VERSION#####################################################       
+
+7 januari 2016
+ - Version 0.0.1
+
+8 januari 2016
+ - Version 0.0.2
+ 
+11 januari 2016
+ - Version 0.0.4
+
+12 januari 2016
+ - Version 0.0.6
+
+13 januari 2016
+ - Version 0.0.7
+ 
+14 januari 2016
+ - Version 0.1.1
+ 
+15 januari 2016
+ - Version 0.1.8
+
+18 januari 2016:
+ - Version 0.2.4
+ 
+19 januari 2016
+ - Version 0.2.6
+        
+##########ACTIONPOINTS################################################
+
+    +   All database actions are now in MysqlI. We will change 
+        this to PDO in the future.
+    
+    +   Export function to PDF.
+    
+    +   Better compability with Excel.
+    
+    +   User can choose which order logs are sorted in table.
+    
+    +   When you already set data in the import csv file, and you 
+        set more data, the data will overwrite the data that 
+        already was in the file to upload.
+        
+##########END_OF_FILE#################################################

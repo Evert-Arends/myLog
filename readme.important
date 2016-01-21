@@ -1,0 +1,68 @@
+    +--------------------------------------------------------------------+
+    | Project built by: Ard-Jan Aalberts, Evert Arends.                  |
+    | Copyrighted to myRemote.io.                                        |
+    | Project started on 7 januari 2016.                                 |
+    | We are not responsible for any loss of data and/or hardware on     |
+    | your side.                                                         |
+    +--------------------------------------------------------------------+
+    
+    ##########README######################################################
+    
+    We build this application because of our internships. While we are 
+    on our internship we have to keep kind of a journal. This caused us
+    to write a bunch of sentences in a form every day. That is when we 
+    came on the idea to make that easier in an application.
+    
+    We started building this not long ago, what means not everything is 
+    fully finished. The base idea we had works, but other things for
+    example exporting to PDF are still not working. The format csv is
+    easy to use on Windows, Linux and OSX, because it can be imported to
+    Excel in Windows easily, and on linux and OSX it can be imported in 
+    OpenOffice as easy as on Windows. When you export data to re-use it
+    in the application you should choose for the txt format, because the
+    breakpoints in the txt file are even to the import values. What means 
+    you can just copy - paste the file, with csv it will cause you some 
+    work that isn't necessary.
+    
+    The application is easy to use. To use the application you must have
+    an host for databases. To install the application you have to go to 
+    /install/index.php. There you will see a form where you can fill in 
+    your databases details. When you did that and click on the button,
+    the database and datatable will be created automatically. The install
+    function will export your database values to the db connection 
+    function. If you did that, your application is installed. 
+    if the installation succeeded you must have a test log in your 
+    database. You can see this in the table on the index page. If there
+    is a test log you can delete the install folder on the secure.php
+    page. This page will delete the install files and folder.
+    
+    The index page speaks for itself. You can edit and delete logs, and 
+    insert logs. On the export page you can export the data to txt and 
+    csv. On the import page you can import logs. The logs you insert must 
+    have the settings that are redefined on the import page. This is 
+    because the application reads the file in breakpoints. This 
+    breakpoints tell the application where to start a new line or column
+    in the database. We don't care when you don't, but if you do, know
+    that your data is not set in the datatable in the right way. The 
+    last page is the links page. We hope you understand how links work. 
+    
+    You are free to use our application and feel free to contact us if 
+    you found a bug or you have a suggestion.
+    
+    Well we can not put an application on Github without having a 
+    disclaimer. So here it is: 
+    
+    We are not responsible for any data loss or damage to hard- and 
+    software. We are working open-source, what means you can watch in 
+    all our code. We are asking you not to use this code in unlawfull
+    activities. If you do, again: We are not responsible for your 
+    actions in general or on our application.
+    
+    All files except the files of CKeditor are copyrighted to 
+    myRemote, Ard-Jan Aalberts and Evert Arends.
+    
+    Regards,
+    
+    Ard-Jan Aalberts, Evert Arends.
+    
+    ##########END_OF_FILE#################################################
